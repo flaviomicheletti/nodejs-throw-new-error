@@ -1,8 +1,9 @@
+![try-catch.png](try-catch.png)
+
 # Lançando erros em Node.js
 
 Brincando de lançar execções em Nodejs + Express.
 
-![try-catch.png](try-catch.png)
 
 ### JavaScript/Reference/Statements/throw
 
