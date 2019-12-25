@@ -2,7 +2,7 @@
 
 Brincando de lançar execções em Nodejs + Express.
 
-![js-throw.jpg](js-throw.jpg)
+![try-catch.png](try-catch.png)
 
 ### JavaScript/Reference/Statements/throw
 
