@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "83bb2351-bdc7-497e-951a-3bca47e1ef85",
+		"name": "nodejs-throw-new-error",
+		"description": "https://github.com/flaviomicheletti/expressjs-api-rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}",
+					"host": [
+						"{{baseUrl}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/show",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"show"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/try-catch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/try-catch",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"try-catch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/nothing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/nothing",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"nothing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/try-catch-log-e",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/try-catch-log-e",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"try-catch-log-e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/res-send",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/res-send",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"res-send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/try-catch-send",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/try-catch-send",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"try-catch-send"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "104dcf83-91c8-4ec3-858a-d9da6746dc79",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "06167a96-4545-49f9-9eca-8d67617ae3a8",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "f47cb3bd-caa7-4089-8447-8dbbc4cf2564",
+			"key": "baseUrl",
+			"value": "http://localhost:3000/",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
