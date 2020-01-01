@@ -18,3 +18,7 @@ Use o [Postman](https://www.getpostman.com/), exporte o arquivo
 
 ![api.png](api.png)
 
+
+### Veja também
+
+https://www.joyent.com/node-js/production/design/errors
