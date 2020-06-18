@@ -44,10 +44,10 @@ app.get('/try-catch-send', function (req, res) {
     try {
         throw new Error('Oooops!');
     } catch (e) {
-        // loga o erro no terminal
+        // loga o erro (mais verboso) no terminal
         console.log(e);
-        // conclui a requisição (neste caso, vazia)
-        res.send();
+        // conclui a requisição com erro menos verboso
+        res.send(e.toString());
     }
 })
 
