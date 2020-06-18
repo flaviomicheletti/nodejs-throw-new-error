@@ -121,6 +121,36 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "/search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/search?params={foo: bar}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "params",
+							"value": "{\"foo\": \"bar\"}",
+							"description": "ok",
+							"disabled": true
+						},
+						{
+							"key": "params",
+							"value": "{foo: bar}",
+							"description": "neg"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"event": [
@@ -147,7 +177,7 @@
 	],
 	"variable": [
 		{
-			"id": "f47cb3bd-caa7-4089-8447-8dbbc4cf2564",
+			"id": "abbc5f1b-6d04-4577-bcd6-7718adc3c904",
 			"key": "baseUrl",
 			"value": "http://localhost:3000/",
 			"type": "string"

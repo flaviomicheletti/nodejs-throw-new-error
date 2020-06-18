@@ -51,6 +51,23 @@ app.get('/try-catch-send', function (req, res) {
     }
 })
 
+//
+// https://expressjs.com/en/advanced/best-practice-performance.html#use-try-catch
+//
+app.get('/search', function (req, res) {
+    // Simulating async operation
+    setImmediate(function () {
+        var jsonStr = req.query.params
+        try {
+            var jsonObj = JSON.parse(jsonStr);
+            console.log(jsonObj);
+            res.send('Success')
+        } catch (e) {
+            res.status(400).send('Invalid JSON string')
+        }
+    })
+})
+
 
 
 var server = app.listen(3000, function () {
