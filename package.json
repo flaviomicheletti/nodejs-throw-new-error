@@ -2,9 +2,6 @@
   "name": "nodejs-throw-new-error",
   "version": "1.0.0",
   "description": "Lançando erros",
-  "scripts": {
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flaviomicheletti/nodejs-throw-new-error.git"
@@ -15,10 +12,17 @@
     "url": "https://github.com/flaviomicheletti/nodejs-throw-new-error/issues"
   },
   "homepage": "https://github.com/flaviomicheletti/nodejs-throw-new-error#readme",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "jest": "^25.1.0"
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "jest": "^25.1.0",
+    "nock": "^13.0.0"
   }
 }

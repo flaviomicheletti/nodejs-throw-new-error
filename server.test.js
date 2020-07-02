@@ -1,5 +1,16 @@
-// const sum = require('./sum');
+const axios = require('axios');
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(123).toBe(123);
+test(' GET /', async () => {
+
+    const config = {
+        method: 'get',
+        url: 'http://localhost:3000/',
+        headers: {
+        }
+    };
+
+    let res = await axios.get(config.url);
+    expect('oi').toBe(res.data);
+
 });
+

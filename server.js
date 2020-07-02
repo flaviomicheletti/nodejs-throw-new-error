@@ -1,5 +1,10 @@
-var express = require('express')
-var app = express()
+const express = require('express')
+const cors = require('cors')
+
+
+const app = express()
+app.use(cors());
+
 
 app.get('/', function (req, res) {
     res.send("oi");
@@ -70,10 +75,10 @@ app.get('/search', function (req, res) {
 
 
 
-var server = app.listen(3000, function () {
+const server = app.listen(3000, function () {
 
-    var host = server.address().address
-    var port = server.address().port
+    const host = server.address().address
+    const port = server.address().port
 
     console.log('Example app listening at http://%s:%s', host, port)
 })
