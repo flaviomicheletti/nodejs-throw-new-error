@@ -5,13 +5,23 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug Jest Tests",
+            "name": "Run All Tests",
             "type": "node",
             "request": "launch",
             "program": "${workspaceFolder}/node_modules/jest/bin/jest.js",
-            "args": ["-i"],
+            "args": [
+                "-i"
+            ],
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Node + Nodemon",
+            "processId": "${command:PickProcess}",
+            "restart": true,
+            "protocol": "inspector",
         }
     ]
 }
