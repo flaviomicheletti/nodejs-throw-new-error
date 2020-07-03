@@ -16,6 +16,12 @@ Use o [Postman](https://www.getpostman.com/), exporte o arquivo `postman-collect
 ![api](https://user-images.githubusercontent.com/1257048/85043361-a3b9de00-b162-11ea-9b1d-9f223370a9b8.png)
 
 
+### Debugando com VSCode
+
+
+
+
+
 ### JavaScript/Reference/Statements/throw
 
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/throw
