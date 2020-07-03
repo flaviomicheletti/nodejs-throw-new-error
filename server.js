@@ -36,7 +36,7 @@ app.get('/try-catch-log-e', function (req, res) {
         throw new Error('Oooops!');
     } catch (e) {
         console.log(e);
-        // ok, log o erro no terminal, mas a requisição fica aguardando
+        // ok, loga o erro no terminal, mas a requisição fica aguardando
     }
 })
 
