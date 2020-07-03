@@ -177,10 +177,9 @@
 	],
 	"variable": [
 		{
-			"id": "abbc5f1b-6d04-4577-bcd6-7718adc3c904",
+			"id": "a7b57687-03f6-4092-9060-46e4df18dec8",
 			"key": "baseUrl",
-			"value": "http://localhost:3000/",
-			"type": "string"
+			"value": "http://localhost:3000"
 		}
 	],
 	"protocolProfileBehavior": {}
