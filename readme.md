@@ -22,11 +22,9 @@ Use o [Postman](https://www.getpostman.com/), exporte o arquivo `postman-collect
 
 
 
-### JavaScript/Reference/Statements/throw
-
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/throw
 
 
 ### Veja também
 
-https://www.joyent.com/node-js/production/design/errors
++ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/throw
++ https://www.joyent.com/node-js/production/design/errors
