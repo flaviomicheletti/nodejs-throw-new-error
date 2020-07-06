@@ -18,10 +18,11 @@ Use o [Postman](https://www.getpostman.com/), exporte o arquivo `postman-collect
 
 ### Debugando com VSCode
 
+    npm run debug
 
+Agora vá para a visão de Debug pressionando `F5`.
 
-
-
+Coloque um break point e sensibilize a aplicação.
 
 
 ### Veja também
