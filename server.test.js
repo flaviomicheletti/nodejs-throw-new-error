@@ -9,8 +9,8 @@ test('GET /', async () => {
 
 });
 
-    // a api lança uma exexeção não tratada, e agora José ?
-    test('GET /show', async () => {
+// a api lança uma exexeção não tratada, e agora José ?
+test('GET /show', async () => {
 
     try {
         let res = await axios.get('/show');
