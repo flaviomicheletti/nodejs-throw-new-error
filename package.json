@@ -14,7 +14,7 @@
   "homepage": "https://github.com/flaviomicheletti/nodejs-throw-new-error#readme",
   "scripts": {
     "start": "node server.js",
-    "debug": "nodemon --inspect server.js",    
+    "debug": "nodemon --inspect server.js",
     "test": "jest"
   },
   "dependencies": {
