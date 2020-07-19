@@ -29,3 +29,8 @@ Coloque um break point e sensibilize a aplicação.
 
 + https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/throw
 + https://www.joyent.com/node-js/production/design/errors
+
+
+### Coverage
+
+Faz sentido o coverage aqui ?

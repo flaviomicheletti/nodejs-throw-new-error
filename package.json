@@ -15,7 +15,8 @@
   "scripts": {
     "start": "node server.js",
     "debug": "nodemon --inspect server.js",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage --watchAll=false"
   },
   "dependencies": {
     "express": "^4.17.1"
