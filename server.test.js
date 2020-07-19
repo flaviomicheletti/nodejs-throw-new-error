@@ -23,7 +23,7 @@ test('GET /show', async () => {
 test('GET /try-catch', () => {
 
     //
-    // outra treta
+    // treta
     //
 
 });
