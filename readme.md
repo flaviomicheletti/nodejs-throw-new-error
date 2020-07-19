@@ -33,4 +33,26 @@ Coloque um break point e sensibilize a aplicação.
 
 ### Coverage
 
-Faz sentido o coverage aqui ?
+    > jest --coverage
+
+    PASS  ./server.test.js
+    √ GET / (78ms)
+    √ GET /show (6ms)
+    √ GET /try-catch
+    √ GET /nothing
+    √ GET /try-catch-log-e
+    √ GET /res-send (6ms)
+    √ GET /try-catch-send (6ms)
+    √ GET /search (12ms)
+
+    ----------|---------|----------|---------|---------|---------------------------------
+    File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+    ----------|---------|----------|---------|---------|---------------------------------
+    All files |   39.39 |      100 |       0 |   39.39 |
+    app.js   |   39.39 |      100 |       0 |   39.39 | 8,12,16-19,33-36,42,47-53,62-69
+    ----------|---------|----------|---------|---------|---------------------------------
+    Test Suites: 1 passed, 1 total
+    Tests:       8 passed, 8 total
+    Snapshots:   0 total
+    Time:        5.05s
+    Ran all test suites.
