@@ -45,7 +45,7 @@ app.get('/res-send', function (req, res) {
 
 app.get('/try-catch-send', function (req, res) {
     try {
-        throw new Error('Oooops!');
+        throw new Error('try catch send!');
     } catch (e) {
         // loga o erro (mais verboso) no terminal
         console.log(e);

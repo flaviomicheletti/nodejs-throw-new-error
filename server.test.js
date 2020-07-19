@@ -57,7 +57,7 @@ test('GET /res-send', async () => {
 test('GET /try-catch-send', async () => {
 
     let res = await axios.get('/try-catch-send');
-    expect('Error: Oooops!').toBe(res.data);
+    expect('Error: try catch send!').toBe(res.data);
 });
 
 test('GET /search', async () => {
