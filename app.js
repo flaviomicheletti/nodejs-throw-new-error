@@ -16,7 +16,7 @@ app.get('/try-catch', function (req, res) {
     try {
         throw new Error('Oooops!');
     } catch (e) {
-        console.log('fudeu');
+        console.log('deu ruim');
         // ele deixa a requisição sem resposta (esperando por uma)
         // o erro é exibido no terminal, mas a requisição entra num loop infinito
         //
@@ -39,7 +39,7 @@ app.get('/try-catch-log-e', function (req, res) {
 })
 
 app.get('/res-send', function (req, res) {
-    res.send();
+    res.status(404).send();
     // nada responde, mas libera a requisição (termina).
 })
 
@@ -50,7 +50,7 @@ app.get('/try-catch-send', function (req, res) {
         // loga o erro (mais verboso) no terminal
         console.log(e);
         // conclui a requisição com erro menos verboso
-        res.send(e.toString());
+        res.status(500).send(e.toString());
     }
 })
 
