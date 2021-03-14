@@ -26,7 +26,7 @@ test('GET /show', async () => {
 test('GET /try-catch', () => {
 
     //
-    // treta
+    // it's bullshit
     //
 
 });
@@ -34,7 +34,7 @@ test('GET /try-catch', () => {
 test('GET /nothing', () => {
 
     //
-    // + treta
+    // it's bullshit
     //
 
 });
@@ -42,7 +42,7 @@ test('GET /nothing', () => {
 test('GET /try-catch-log-e', async () => {
 
     //
-    // + treta
+    // it's bullshit
     //
 
 });

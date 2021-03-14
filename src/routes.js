@@ -1,12 +1,14 @@
+const express = require('express')
+const router = express.Router()
 const controller = require('./controller');
 
-module.exports = function (app) {
-    app.get('/', controller.index)
-    app.get('/show', controller.show)
-    app.get('/try-catch', controller.tryCatch)
-    app.get('/nothing', controller.nothing)
-    app.get('/try-catch-log-e', controller.tryCatchLogE)
-    app.get('/res-send', controller.resSend)
-    app.get('/try-catch-send', controller.tryCatchSend)
-    app.get('/search', controller.search)
-};
+router.get('/', controller.index)
+router.get('/show', controller.show)
+router.get('/try-catch', controller.tryCatch)
+router.get('/nothing', controller.nothing)
+router.get('/try-catch-log-e', controller.tryCatchLogE)
+router.get('/res-send', controller.resSend)
+router.get('/try-catch-send', controller.tryCatchSend)
+router.get('/search', controller.search)
+
+module.exports = router

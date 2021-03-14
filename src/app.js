@@ -4,7 +4,6 @@ const routes = require('./routes')
 
 const app = express()
 app.use(cors());
-
-routes(app);
+app.use(routes);
 
 module.exports = app;
