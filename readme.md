@@ -2,7 +2,7 @@
 
 # Lançando erros em Node.js
 
-Brincando de lançar execções em Nodejs + Express.
+Brincando de lançar exceções em Nodejs + Express.
 
     npm i
     npm start // npm debug
