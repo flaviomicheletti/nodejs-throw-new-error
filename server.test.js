@@ -49,15 +49,31 @@ test('GET /try-catch-log-e', async () => {
 
 test('GET /res-send', async () => {
 
-    let res = await axios.get('/res-send');
-    expect('').toBe(res.data);
+    let res;
+    try {
+        res = await axios.get('/res-send');        
+    } catch (error) {
+        expect(res).toBe(undefined);
+        expect(error.message).toBe("Request failed with status code 404");                    
+    }
 
 });
 
+// 
+
 test('GET /try-catch-send', async () => {
 
-    let res = await axios.get('/try-catch-send');
-    expect('Error: try catch send!').toBe(res.data);
+    // let res = await axios.get('/try-catch-send');
+    // expect('Error: try catch send!').toBe(res.data);
+
+    let res;
+    try {
+        res = await axios.get('/try-catch-send');        
+    } catch (error) {
+        expect(res).toBe(undefined);
+        expect(error.message).toBe("Request failed with status code 500");                    
+    }
+
 });
 
 test('GET /search', async () => {
