@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // sem essa linha aqui não temos o coverage
-require('./app.js');
+require('../src/app.js');
 
 axios.defaults.baseURL = 'http://localhost:3000';
 
