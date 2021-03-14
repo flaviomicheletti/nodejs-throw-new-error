@@ -35,24 +35,26 @@ Coloque um break point e sensibilize a aplicação.
 
     > jest --coverage
 
-    PASS  ./server.test.js
-    √ GET / (78ms)
-    √ GET /show (6ms)
-    √ GET /try-catch
+    PASS  tests/server.test.js
+    √ GET / (79ms)
+    √ GET /show (9ms)
+    √ GET /try-catch (1ms)
     √ GET /nothing
     √ GET /try-catch-log-e
-    √ GET /res-send (6ms)
-    √ GET /try-catch-send (6ms)
-    √ GET /search (12ms)
+    √ GET /res-send (5ms)
+    √ GET /try-catch-send (8ms)
+    √ GET /search (16ms)
 
-    ----------|---------|----------|---------|---------|---------------------------------
-    File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
-    ----------|---------|----------|---------|---------|---------------------------------
-    All files |   39.39 |      100 |       0 |   39.39 |
-    app.js   |   39.39 |      100 |       0 |   39.39 | 8,12,16-19,33-36,42,47-53,62-69
-    ----------|---------|----------|---------|---------|---------------------------------
+    ---------------|---------|----------|---------|---------|-------------------
+    File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+    ---------------|---------|----------|---------|---------|-------------------
+    All files      |      50 |      100 |       0 |      50 |
+    app.js         |     100 |      100 |     100 |     100 |
+    controller.js  |    4.76 |      100 |       0 |    4.76 | 5-60
+    routes.js      |     100 |      100 |     100 |     100 |
+    ---------------|---------|----------|---------|---------|-------------------
     Test Suites: 1 passed, 1 total
     Tests:       8 passed, 8 total
     Snapshots:   0 total
-    Time:        5.05s
+    Time:        3.544s
     Ran all test suites.
